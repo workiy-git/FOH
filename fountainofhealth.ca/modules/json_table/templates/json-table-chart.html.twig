@@ -1,0 +1,14 @@
+{%
+  set classes = [
+  'json-table-chart',
+  id_field_name,
+]
+%}
+{% if settings['mode'] == 'googleCharts' %}
+<div{{ attributes.addClass(classes) }} style="width: {{settings['chart_width']}}; height: {{settings['chart_height']}};">
+</div>
+{% elseif settings['mode'] == 'chartjs' %}
+    <div style="width: {{settings['chart_width']}}; height: {{settings['chart_height']}};">
+      <canvas{{ attributes.addClass(classes) }}></canvas>
+    </div>
+{% endif %}
