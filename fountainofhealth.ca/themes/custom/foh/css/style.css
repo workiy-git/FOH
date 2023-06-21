@@ -110,7 +110,11 @@
         background: linear-gradient(90.52deg, #5463F8 33.6%, #340A47 104.67%);
         height: 100%;
         }
-
+    .status-img{
+        height: auto;
+        width: 100%;
+        display: flex;
+    }
 
     /*2nd page*/
     #edit-optimal-aging>thead>tr>th,tbody>tr>td{
