@@ -1,5 +1,0 @@
-name: 'My Mail Module'
-type: module
-description: 'Custom module for setting reply-to address in emails.'
-core_version_requirement: ^8 || ^9 || ^10
-package: Custom
