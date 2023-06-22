@@ -6,143 +6,9 @@
     font-family: Poppins;
     src: url(Poppins-Regular.ttf);
 }
-
-@media (max-width:480px)  {
-    .header-img{
-        padding-left: 0;
-        padding-right: 0;
-        padding-bottom: 10px;
-    }
-    .foh-welcome-block{
-        height: auto;
-        width:100%;
-        background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
-        box-shadow: 0px 20px 24px rgba(65, 132, 247, 0.24);
-        border-radius: 22px;
-        text-align: center; 
-    }
-    .foh-welcome-text{
-        color: #FFFFFF;  
-        padding: 10px; 
-    }
-    .foh-welcome-text>h1{
-        font-size: 22px;
-    }
-    .foh-welcome-text>p{
-        font-size: 8px;
-    } 
-    .foh-course-reg{
-        font-size: 22px;
-    }
-    .wellness-together-main{
-        display: block;
-    }
-    .wellness-together{
-        width: 100%;
-
-    }
-    .wellness-img{
-        height: auto;
-        width: 100%;
-        padding: 1rem;
-        border-radius: 5px;
-        
-    }
-    .image-container {
-        width: 100%;
-        height: auto;   
-        display: flex;
-    }
-    .iframe{
-        height: auto;
-        width: 100%;
-        padding: 15px;
-        border-radius: 10px;
-    }
-    /* Footer area code */
-    .footer{
-        padding: 0;
-        margin: 0;
-        margin-bottom: 0;
-        width: 100%;
-        padding-top: 20px;
-    }
-
-    .footer-main{
-        background-color:#3A8EF6;
-        color:#FFFFFF;
-        height:10rem;
-        width: 100%;
-        display: inline-block;
-        
-    }
-
-    .footer-logo-img{
-        height:50px;
-        width:75px;
-        margin-top: 2rem;
-        margin-left: 2rem;
-    }
-
-    .footer-line{
-        border-left:1px solid white;
-        height:30px;
-        left:150px;
-        margin-top: 3rem;
-        position:absolute;
-    }
-
-    .footer-text{
-        margin-top: 2rem;
-        font-size: 8px;
-        float: right;
-        margin-right: 2rem;
-
-    }
-    .blog{
-        display: inline;
-    }
-    .navbar-header {
-        width:100%;
-        color: #FFFFFF;
-    }
-    #navbar {
-        background: linear-gradient(90.52deg, #5463F8 33.6%, #340A47 104.67%);
-        height: 100%;
-        }
-    .status-img{
-        height: auto;
-        width: 100%;
-        display: flex;
-    }
-
-    /*2nd page*/
-    #edit-optimal-aging>thead>tr>th,tbody>tr>td{
-        display: block;
-        width: 100%;
-    }
-    /*3rd page*/
-    .reg-button-block{
-        height:3rem;
-        width: 15rem;
-        border-radius: 20px;
-        background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
-    }
-    .button{
-        display: inline-block;
-        color: #FFFFFF;
-        font-weight: bold;
-        margin-top: 4px; 
-    }
-    .success-img{
-        height: 200px;
-        width: 300px;
-    }
-}
 body{
     font-family: poppins;
 }
-@media (min-width:801px){
 
 .image-container {
     max-width: 100%;
@@ -153,7 +19,7 @@ body{
     margin-top: 3rem;
     
 }
-.views-row{
+/*.views-row{
     height: 567px;
     width: 300px;
     align-items: flex-start;
@@ -165,7 +31,7 @@ body{
     display: inline;
     width: 20%;
 
-}
+}*/
 .views-field-title{
     font-size: larger;
     font-weight: bold;
@@ -229,6 +95,7 @@ body{
     color:#FFFFFF;
     height:250px;
     padding:55px;
+    width: 100%;
 }
 .footer{
     padding: 0;
@@ -251,10 +118,11 @@ body{
 }
 
 .footer-text{
-    font-size: 24px;
-    float:right;
-    margin-right: 20%;
+    font-size: 17px;
+    float: right;
+  
 }
+
 .foh-welcome-block{
     height: 25rem;
     width:80%;
@@ -294,6 +162,21 @@ body{
     margin: 0;
 
 }
+.header-text {
+    margin-top: 2rem;
+    line-height: 2rem;
+    margin-left: -4rem;
+}
+.header-p1 > a > span{
+    color:#FFC700;
+    font-size: large;
+}
+.header-p1 > strong {
+    font-size: x-large;
+}
+.header-p2 {
+    font-size: medium;
+}
 
 /* Navbar */
 
@@ -306,8 +189,8 @@ body{
     color: #FFFFFF;
 }
 #navbar {
-    background: linear-gradient(90.52deg, #5463F8 33.6%, #340A47 104.67%);
-    height: 10rem;
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    height: auto;
     }
 	
 	
@@ -427,13 +310,13 @@ flex-grow: 0;
 }
 
 /*form age*/
-.registration-age-field{
-    width: 100%;
-}
 #edit-age{
     width: 100%;
 }
-
+/*form phone*/
+#edit-last-name{
+    margin-top: 2.4rem;
+}
 /* Register NOW ! */
 .program-register-now{
 text-align:center;
@@ -471,7 +354,6 @@ border-radius: 100px;
     font-weight: bold;
     margin-top: 6px; 
 }
-}
 
 .views-view-responsive-grid__item {
   box-sizing: border-box;
@@ -493,4 +375,252 @@ border-radius: 100px;
   color: black;
 }
 
-.views-field views-field-field-test
+/*
+Registration Form Top 
+First Row
+Program title | webinar
+Second Row
+duration|Data and time 
+*/
+.prgm-title-in-reg
+{
+/* Rectangle 24 */
+box-sizing: border-box;
+position: absolute;
+width: 1440px;
+height: 133px;
+left: 0px;
+top: 1281px;
+background: #5464F8;
+border: 1px solid #9A9A9A;
+}
+
+.prgm-title-in-reg > h2{
+position: absolute;
+width: 971px;
+height: 25px;
+left: 216px;
+top: 1315px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 25px;
+
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+}
+
+.prgm-title-in-reg > p{
+	position: absolute;
+width: 971px;
+height: 25px;
+left: 216px;
+top: 1354px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+/* identical to box height, or 147% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFC700;
+	
+}
+
+
+/*
+End 
+Registration Form Top 
+First Row
+Program title | webinar
+Second Row
+duration|Data and time 
+*/
+
+/**/
+/*Register Now Button in landing page*/
+
+
+
+.registration-body{
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 24px;
+width: 467px;
+height: 611px;
+
+
+background: #FFFFFF;
+box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
+border-radius: 24px;
+
+
+}
+.registration-now{
+    /* Button/1 */
+    
+   
+max-width: 282px;
+height: 56px;
+right: 346px;
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    /* White' */
+    
+   
+    
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+    border-radius: 100px;
+    
+}
+    
+        .registration-now::before{
+           content: url('/sites/default/files/inline-images/vector.PNG');
+          
+        }
+    
+        .registration-now >a:hover{
+            text-decoration: none;
+        }
+    
+    
+    
+.program-time::before{
+    content: url('/sites/default/files/inline-images/program-time.PNG');
+}
+
+.registration-now > a
+{
+    display: inline-block;
+    color: #ffffff;
+}
+
+
+
+
+
+
+/*Testimonial Section*/
+.testmonial{
+    /* Frame 37567 */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 32px;
+    gap: 10px;
+    isolation: isolate;
+    width: 535px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
+    border-radius: 32px;
+    }
+
+    .block-title{
+        display:flex;
+        text-align: center;
+    }
+
+
+
+/*form yes or no*/
+.edit-this-is-my-first-group-session-with-fountain-of-health-{
+    display: inline;
+}
+.course-table{
+    margin: 5%;
+}
+.contextual-region>.course-table>.view-content>.table-responsive>.table>thead{
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    height: 7rem;
+    color: #FFFFFF;
+}
+/*
+.views-field-field-sign-up-form-text{
+    display: inline-block;
+    height: 10px;
+    width:2rem;
+    color: black;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+
+}*/
+.views-field-field-sign-up-form-text>a{
+    display: block;
+    color: black;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+/* Webform progress display none */
+
+.webform-progress {
+    display: none;
+}
+/*2nd page static statusbar*/ 
+.status-img-block{
+    padding: 2%;
+}
+.course-details-content{
+    font-weight: bold;
+    font-size: 37px;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 5%;
+}
+
+
+/* Form buttons center */
+#edit-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.form-item-course-title{
+    background: #5464F8;
+    border: 1px solid #9A9A9A;
+    color: #FFFFFF;
+    height: 10rem;
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 3rem;
+}
+.field--name-field-schedule-date-and-time{
+    color: 
+    #FFC700;
+    text-align: center;
+}
