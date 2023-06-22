@@ -4,11 +4,7 @@ core_version_requirement: ^9 || ^10
 
 name: 'foh'
 description: 'Fountain Of Health.'
-<<<<<<< Updated upstream
 package: 'Bootstrap'
-=======
-package: Custom
->>>>>>> Stashed changes
 
 regions:
   navigation: 'Navigation'
