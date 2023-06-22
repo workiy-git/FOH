@@ -1,3 +1,0 @@
-field.widget.settings.inline_entity_form_complex_table_view_mode:
-  type: field.widget.settings.inline_entity_form_complex
-  label: 'Inline entity reference display format settings'
