@@ -1,8 +1,0 @@
-global-styling:
-  css:
-    theme:
-      css/bootstrap.css: {}
-  js:
-    theme:
-      js/bootstrap.js: {}
-  

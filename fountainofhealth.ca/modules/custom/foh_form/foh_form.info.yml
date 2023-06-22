@@ -1,7 +1,0 @@
-name: 'foh_form'
-type: module
-description: 'Custom form module'
-package: Custom
-version: 1.0
-core_version_requirement: ^9 || ^10
-
