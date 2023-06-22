@@ -8,6 +8,16 @@
 }
 
 @media (max-width:480px)  {
+
+    /*statusbar above content*/
+    .course-details-content{
+        font-weight: bold;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 8%;
+        margin-bottom: 5%;
+    }
+    
     .header-img{
         padding-left: 0;
         padding-right: 0;
@@ -93,34 +103,41 @@
     }
 
     .footer-text{
-        margin-top: 2rem;
-        font-size: 8px;
+        font-size: 6px;
         float: right;
-        margin-right: 2rem;
+        width: 50%;
+        margin-top: 1.2rem;
+        margin-right: 1rem;
 
-    }
-    .blog{
-        display: inline;
+      
     }
     .navbar-header {
         width:100%;
         color: #FFFFFF;
     }
+    
     #navbar {
+<<<<<<< Updated upstream
         background: linear-gradient(90.52deg, #5463F8 33.6%, #340A47 104.67%);
         height: 100%;
         }
+
+=======
+        background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+        height: auto;
+    }
     .status-img{
         height: auto;
         width: 100%;
         display: flex;
     }
+>>>>>>> Stashed changes
 
     /*2nd page*/
-    #edit-optimal-aging>thead>tr>th,tbody>tr>td{
+    /*#edit-optimal-aging>thead>tr>th,tbody>tr>td{
         display: block;
         width: 100%;
-    }
+    }*/
     /*3rd page*/
     .reg-button-block{
         height:3rem;
@@ -135,10 +152,18 @@
         margin-top: 4px; 
     }
     .success-img{
-        height: 200px;
+        margin-top: 2rem;
+        height: 100px;
         width: 300px;
     }
+    /*Lastname*/
+    #edit-last-name{
+        margin-top: 1rem;
+    }
+    
+    
 }
+
 body{
     font-family: poppins;
 }
@@ -153,7 +178,7 @@ body{
     margin-top: 3rem;
     
 }
-.views-row{
+/*.views-row{
     height: 567px;
     width: 300px;
     align-items: flex-start;
@@ -165,7 +190,7 @@ body{
     display: inline;
     width: 20%;
 
-}
+}*/
 .views-field-title{
     font-size: larger;
     font-weight: bold;
@@ -251,10 +276,11 @@ body{
 }
 
 .footer-text{
-    font-size: 24px;
-    float:right;
-    margin-right: 20%;
+    font-size: 17px;
+    float: right;
+  
 }
+
 .foh-welcome-block{
     height: 25rem;
     width:80%;
@@ -306,8 +332,8 @@ body{
     color: #FFFFFF;
 }
 #navbar {
-    background: linear-gradient(90.52deg, #5463F8 33.6%, #340A47 104.67%);
-    height: 10rem;
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    height: auto;
     }
 	
 	
@@ -427,13 +453,13 @@ flex-grow: 0;
 }
 
 /*form age*/
-.registration-age-field{
-    width: 100%;
-}
 #edit-age{
     width: 100%;
 }
-
+/*form phone*/
+#edit-last-name{
+    margin-top: 2.4rem;
+}
 /* Register NOW ! */
 .program-register-now{
 text-align:center;
@@ -471,6 +497,8 @@ border-radius: 100px;
     font-weight: bold;
     margin-top: 6px; 
 }
+<<<<<<< Updated upstream
+=======
 }
 
 .views-view-responsive-grid__item {
@@ -493,4 +521,296 @@ border-radius: 100px;
   color: black;
 }
 
-.views-field views-field-field-test
+/*
+Registration Form Top 
+First Row
+Program title | webinar
+Second Row
+duration|Data and time 
+*/
+.prgm-title-in-reg
+{
+/* Rectangle 24 */
+box-sizing: border-box;
+position: absolute;
+width: 1440px;
+height: 133px;
+left: 0px;
+top: 1281px;
+background: #5464F8;
+border: 1px solid #9A9A9A;
+}
+
+.prgm-title-in-reg > h2{
+position: absolute;
+width: 971px;
+height: 25px;
+left: 216px;
+top: 1315px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 25px;
+
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFFFFF;
+
+}
+
+.prgm-title-in-reg > p{
+	position: absolute;
+width: 971px;
+height: 25px;
+left: 216px;
+top: 1354px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 25px;
+/* identical to box height, or 147% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #FFC700;
+	
+}
+
+
+/*
+End 
+Registration Form Top 
+First Row
+Program title | webinar
+Second Row
+duration|Data and time 
+*/
+
+/**/
+/*Register Now Button in landing page*/
+.registration-body{
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 32px;
+gap: 24px;
+width: 467px;
+height: 611px;
+
+
+background: #FFFFFF;
+box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
+border-radius: 24px;
+
+
+}
+.registration-now{
+    /* Button/1 */
+    
+   
+max-width: 282px;
+height: 56px;
+right: 346px;
+    
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    
+    /* White' */  
+   
+    
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+    border-radius: 100px;
+    
+}
+    
+        .registration-now::before{
+           content: url('/sites/default/files/inline-images/vector.PNG');
+          
+        }
+    
+        .registration-now >a:hover{
+            text-decoration: none;
+        }
+    
+    
+    
+.program-time::before{
+    content: url('/sites/default/files/inline-images/program-time.PNG');
+}
+
+.registration-now > a
+{
+    display: inline-block;
+    color: #ffffff;
+}
+
+
+
+/*Testimonial Section*/
+.testmonial{
+    /* Frame 37567 */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 32px;
+    gap: 10px;
+    isolation: isolate;
+    width: 535px;
+    height: 200px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -3px rgba(3, 9, 50, 0.04);
+    border-radius: 32px;
+    }
+
+    .block-title{
+        display:flex;
+        text-align: center;
+    }
+
+
+
+/*form yes or no*/
+.edit-this-is-my-first-group-session-with-fountain-of-health-{
+    display: inline;
+}
+.course-table{
+    margin: 5%;
+}
+.contextual-region>.course-table>.view-content>.table-responsive>.table>thead{
+    background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
+    height: 7rem;
+    color: #FFFFFF;
+}
+/*
+.views-field-field-sign-up-form-text{
+    display: inline-block;
+    height: 10px;
+    width:2rem;
+    color: black;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+
+}*/
+.views-field-field-sign-up-form-text>a{
+    display: block;
+    color: black;
+    background-color: #FFFFFF;
+    font-weight: bold;
+    box-shadow: 0px 8px 23px rgba(65, 132, 247, 0.24);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+/* Webform progress display none */
+
+.webform-progress {
+    display: none;
+}
+/*2nd page static statusbar*/ 
+.status-img-block{
+    padding: 2%;
+}
+.course-details-content>p{
+    font-family: Poppins;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #000; 
+}
+
+
+/*.dynamic-title{
+
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.02em;
+    text-align: center;
+
+}*/
+
+/* Form buttons center */
+#edit-actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.form-item-course-title{
+    background: #5464F8;
+    border: 1px solid #9A9A9A;
+    color: #FFFFFF;
+    height: 10rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 3rem;
+    font-family: poppins;
+    font-weight: bold;
+
+
+    
+}
+
+.form-terms-container{
+    background: #447DF6;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.form-terms-container .web-form-check-box{
+    display: flex;
+    padding-left: 100px;
+}
+
+.form-input-flexbox1{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#edit-registration-form > input{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.field--name-field-schedule-date-and-time{
+    color: 
+    #FFC700;
+    text-align: center;
+}
+/*Form Next botton*/
+#edit-actions--2{
+    text-align: center;
+    margin-top: 5%;
+>>>>>>> Stashed changes
+}
