@@ -287,7 +287,7 @@ $settings['hash_salt'] = 'Z2nF1NRd31wdrLq1MFthLxLkvL3yY_8jowElWwGLK3kOJXUZnqRAbU
  * After finishing the upgrade, be sure to open this file again and change the
  * TRUE back to a FALSE!
  */
-$settings['update_free_access'] = FALSE;
+$settings['update_free_access'] = TRUE;
 
 /**
  * Fallback to HTTP for Update Manager and for fetching security advisories.
@@ -825,3 +825,4 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_n4YJj766fUFhNtCmMPFz6y6BHSAiUTkf5tlWJUnSbVhWmaaYl8GhDrT1JXbSVEos5yxRUNU8tw/sync';
+$config['system.logging']['error_level'] = 'verbose';
