@@ -1,0 +1,37 @@
+<?php
+
+use Drupal\Core\Form\FormStateInterface;
+
+/**
+ * Implements hook_form().
+ */
+function foh_form_form(array &$form, FormStateInterface $form_state) {
+  $form['name'] = [
+    '#type' => 'textfield',
+    '#title' => t('Name'),
+    '#required' => true,
+  ];
+  $form['email'] = [
+    '#type' => 'email',
+    '#title' => t('Email'),
+    '#required' => true,
+  ];
+  $form['submit'] = [
+    '#type' => 'submit',
+    '#value' => t('Submit'),
+  ];
+  return $form;
+}
+
+/**
+ * Form submission callback.
+ */
+function foh_form_form_submit(array &$form, FormStateInterface $form_state) {
+  $name = $form_state->getValue('name');
+  $email = $form_state->getValue('email');
+
+  // Perform any necessary processing with the submitted values.
+  // For example, store them in the database or send an email.
+
+  drupal_set_message(t('Form submitted successfully.'));
+}
