@@ -1,0 +1,7 @@
+foh_form.form:
+  path: '/foh_form/form'
+  defaults:
+    _form: '\Drupal\foh_form\Form\SimpleRegistrationForm'
+    _title: 'My Module Form'
+  requirements:
+    _permission: 'access content'

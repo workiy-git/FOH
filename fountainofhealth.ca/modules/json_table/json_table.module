@@ -1,0 +1,43 @@
+<?php
+
+/**
+ * @file
+ * Json table Module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function json_table_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the json_table module.
+    case 'help.page.json_table':
+      $output = '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This field will be stored in Mysql database with JSON data type (no test for other like Postgre type jsonB). it will be practice for developer queries with mysql, not like text data type.') . '</p>';
+      $output .= '<p>' . t('Widget/Formatter supports json editor and table input.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function json_table_theme($existing, $type, $theme, $path) {
+  $variables = [
+    'json_table_chart' => [
+      'variables' => [
+        'id_field_name' => 'json-table-chart',
+        'settings' => NULL,
+        'attributes' => [],
+        'langcode' => 'en'
+      ],
+      'template' => 'json-table-chart',
+    ],
+  ];
+
+  return $variables;
+}

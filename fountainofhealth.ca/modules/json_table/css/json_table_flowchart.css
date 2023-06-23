@@ -1,0 +1,20 @@
+.json-table-flowchart {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.json-table-flowchart .palette {
+  width: 100px;
+  margin-right: 2px;
+  position: relative;
+  cursor: auto;
+}
+
+.json-table-flowchart .diagram {
+  flex-grow: 1;
+  height: 100vh;
+  position: relative;
+  cursor: auto;
+  font: bold 11pt Lato, Helvetica, Arial, sans-serif;
+}
