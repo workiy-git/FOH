@@ -1,4 +1,0 @@
-administer paragraphs_item fields:
-  title: 'Administer paragraphs item'
-  description: 'Create, duplicate and delete fields on paragraphs.'
-  restrict access: true
