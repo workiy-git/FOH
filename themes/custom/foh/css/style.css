@@ -74,6 +74,7 @@
         padding: 15px;
         border-radius: 10px;
     }
+   
     /* Footer area code */
     .footer{
         padding: 0;
@@ -152,7 +153,7 @@
     }
     /*Lastname*/
     #edit-last-name{
-        margin-top: 1rem;
+        margin-top: 30px;
     }
     
     
@@ -162,6 +163,10 @@ body{
     font-family: poppins;
 }
 /*@media (min-width:801px){*/
+
+.author{
+    visibility: hidden;
+}
 
 .image-container {
     max-width: 100%;
@@ -271,22 +276,27 @@ body{
 
 /*wellness-together*/
 .wellness-together{
+    margin-top: 60px;
     height: auto;
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
-    margin-top: 9rem;
     color: #031432;
+}
+.layout--twocol-section--50-50{
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .wellness-img{
     margin-top: -5rem;
     border-top-left-radius: 7rem;
+    width: 450px;
+    height: 300px;
 }
 /* Header image */
 
 .header-img {
     width: 100%;
-    padding: 0;
-    margin: 0;
+    
 
 }
 
@@ -309,7 +319,7 @@ body{
 	/* menu menu--account nav navbar-nav navbar-right
     
     Having a positive outlook on aging might be one of the most important factors in optimal aging. Learn more in this TEDx Talk by Dr. Keri-Leigh Cassidy, Founder of the Fountain of Health™ */
-.watchvideotext
+/*.watchvideotext
 {
 
 width: 485px;
@@ -320,20 +330,20 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 24px;
-/* or 150% */
+/* or 150% 
 
 
-/* Second */
+/* Second 
 
 color: #6C87AE;
 
 
-/* Inside auto layout */
+/* Inside auto layout 
 
 flex: none;
 order: 1;
 flex-grow: 0;
-}
+}*/
 
 .foh-terms{
  
@@ -381,7 +391,7 @@ height: 48px;
 font-family: 'Poppins';
 font-style: normal;
 font-weight: 600;
-font-size: 32px;
+font-size: 25px;
 line-height: 48px;
 /* identical to box height */
 
@@ -408,20 +418,15 @@ flex-grow: 0;
     text-align: center;
     padding-top: 15px;
 }
-
-.layout--onecol{
-    width: 80%;
-    margin-left: 10%;
-}
 .foh-testimonialtitle{
     width: 676px;
-height: 60px;
+    height: 60px;
 
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
 /* or 125% */
 
 text-align: center;
@@ -444,7 +449,7 @@ flex-grow: 0;
 }
 /*form phone*/
 #edit-last-name{
-    margin-top: 2.4rem;
+    margin-top: 30px;
 }
 /* Register NOW ! */
 .program-register-now{
@@ -638,7 +643,7 @@ margin-left: 10%;
  .registration-now{
 display: inline-flex;
 padding: 1rem;
-gap: 33px;
+gap: 12px;
 width: 80%;
 background: linear-gradient(141deg, #3A8EF6 0%, #6F3AFA 100%);
 box-shadow: 0px 8px 23px 0px rgba(65, 132, 247, 0.24);
@@ -646,7 +651,7 @@ border-radius: 100px;
 margin-left: 10%;
 }
 .registration-now::before{
-           content: url('/FOH/fountainofhealth.ca/sites/default/files/inline-images/vector.PNG');
+           content: url('/foh/sites/default/files/inline-images/vector.PNG');
            padding-left: 15px;
            /*content:'';*/
           
@@ -659,12 +664,12 @@ margin-left: 10%;
     
     
 .registration-box:nth-child(odd)::before{
-   content: url('/FOH/fountainofhealth.ca/sites/default/files/inline-images/program-time.PNG');
+   content: url('/foh/sites/default/files/inline-images/program-time.PNG');
     position: absolute;
     margin-bottom: -7rem;
 }
 .registration-box:nth-child(even)::before{
-    content: url('/FOH/fountainofhealth.ca/sites/default/files/inline-images/image2.PNG');
+    content: url('/foh/sites/default/files/inline-images/image2.PNG');
      position: absolute;
      margin-bottom: -7rem;
  }
@@ -694,10 +699,10 @@ margin-left: 10%;
     border-radius: 32px;
     background: #FFF;
     box-shadow: 0px 24px 32px -3px #0309320A;
-    margin: 2rem;
+    margin: 2.5%;
     }
     .block-views-blocktestmmonial-view-block-1 {
-        margin-top: 10rem;
+        margin-top: 0;
     }
     .block-views-blocktestmmonial-view-block-1 > .block-title{
         color: #6C87AE;
@@ -710,6 +715,9 @@ margin-left: 10%;
    .testimonial-row{
         display:flex;
         padding-bottom:5px;
+        width: 70%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
 
 
@@ -722,9 +730,9 @@ font-weight: 500;
     }*/
 .testimonial-field{
     text-align: justify;
-    font-size: large;
+    font-size: 16px;
     color: #031432;
-    height: 25rem;
+    height: 19rem;
     line-height: 3rem;
     margin: 5%;
 }
@@ -746,7 +754,6 @@ font-weight: 500;
     background: linear-gradient(96.14deg, #3A8EF6 -10.84%, #6F3AFA 196.74%);
     height: 7rem;
     color: #FFFFFF;
-    text-align: center;
 }
 .contextual-region>.course-table>.view-content>.table-responsive>.table>tbody>tr>td{
     padding-top: 20px;
@@ -878,6 +885,9 @@ font-weight: 500;
     display: flex;
     padding-left: 100px;
 }
+.web-form-newsletter .control-label input{
+    padding-left: 20px;
+}
 .form-input-flexbox1{
     padding-left: 100px;
     padding-right: 100px;
@@ -924,6 +934,11 @@ font-weight: 500;
     padding-bottom: 5px;
 
 }
+
+.youtube-video{
+    margin-top: 40px;
+    width: 100%;
+}
 .form-required:after {
     /*background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZmlsbD0iI0VFMDAwMCIgIGQ9Ik0wLDcuNTYybDEuMTE0LTMuNDM4YzIuNTY1LDAuOTA2LDQuNDMsMS42ODgsNS41OSwyLjM1QzYuMzk4LDMuNTUzLDYuMjM3LDEuNTQ0LDYuMjIsMC40NDdoMy41MTEgYy0wLjA1LDEuNTk3LTAuMjM0LDMuNi0wLjU1OCw2LjAwM2MxLjY2NC0wLjgzOCwzLjU2Ni0xLjYxMyw1LjcxNC0yLjMyNUwxNiw3LjU2MmMtMi4wNSwwLjY3OC00LjA2LDEuMTMxLTYuMDI4LDEuMzU2IGMwLjk4NCwwLjg1NiwyLjM3MiwyLjM4MSw0LjE2Niw0LjU3NWwtMi45MDYsMi4wNTljLTAuOTM1LTEuMjc0LTIuMDQxLTMuMDA5LTMuMzE2LTUuMjA2Yy0xLjE5NCwyLjI3NS0yLjI0NCw0LjAxMy0zLjE0Nyw1LjIwNiBsLTIuODU2LTIuMDU5YzEuODcyLTIuMzA3LDMuMjExLTMuODMyLDQuMDE3LTQuNTc1QzMuODQ5LDguNTE2LDEuODcyLDguMDYyLDAsNy41NjIiLz48L3N2Zz4K);
     */
@@ -936,7 +951,7 @@ font-weight: 500;
     width: 10px;
 }
 #edit-registration-form > input{
-    padding-left: 30px;
+    padding-left: 35px;
     padding-right: 30px;
 }
 .field--name-field-schedule-date-and-time{
@@ -952,18 +967,27 @@ font-weight: 500;
 }
 /*selvin*/
 
-.header-img {
+.header-img-main {
     width: 100%;
     padding: 0;
     margin: 0;
     display: inline-block;
 }
+.header-img{
+    width: 100%;
+    height: auto;
+}
+
 .header-img-text{
     position: absolute;
     margin-top: -19%;
     margin-left: -12%;
     float: left;
     color: #2C549C;
+    width: 100%;
+}
+.header-banner{
+    margin-left: 27%;
 }
 .header-img-text>div>div>.header-banner-p2{
     font-size: 40px;
@@ -973,6 +997,7 @@ font-weight: 500;
 }
 .header-top {
     display: inline-block;
+    width: 100%;
 }
 .header-text {
     margin-top: 3rem;
@@ -997,6 +1022,7 @@ font-weight: 500;
     margin-top: -4rem;
     width: auto;
     position: relative;
+    margin-right: 5%;
 }
 .lang-switch > a {
     color: #F5F5F5;
@@ -1006,7 +1032,6 @@ font-weight: 500;
     width: 80%;
     margin-left: 10%;
     font-size: 28px;
-    margin-top: 10rem;
     flex-wrap: nowrap;
 }
 .layout__region--first{
@@ -1023,6 +1048,35 @@ font-weight: 500;
 .layout__region--second>section{
     padding: 4rem;
 }
+.bio-blog-bg-1{
+    background-color: #29B5FE;
+    margin-top: 4rem;
+}
+.bio-blog-bg-2{
+    background-color: #2956A7;
+    margin-top: 4rem;
+}
+.bio-blog{
+    display: inline-block;
+    width: 80%;
+    margin-left: 10%;
+}
+.blog-img{
+    float: left;
+    padding: 2%;
+    margin-right: 1%;
+}
+.blog-img>img{
+    width: auto;
+    height: 300px;
+}
+.bio-heading{
+    margin-top: 3%;
+    color: white;
+}
+.bio-heading>h3{
+    margin-bottom: 2%;
+}
 
 /*Sathish*/
 .form-fill-info{
@@ -1033,11 +1087,8 @@ font-weight: 500;
     word-wrap: break-word;
     word-break: break-all;
     overflow-wrap: break-word;
-    padding-left: 56px;
+    padding-left: 13px;
 }
-
-
-
 .views-field-field-program-duration{
     word-wrap: break-word;
     /* word-break: break-all; */
